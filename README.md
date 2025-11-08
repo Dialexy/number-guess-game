@@ -1,4 +1,4 @@
-# number-guess-game
+# NumberGuessingGame (java)
 - First Java based game 
 - Very simplistic logic + GUI 
 
