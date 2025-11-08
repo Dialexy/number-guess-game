@@ -6,4 +6,4 @@
 Maven
 
 ## Run
-java -jar target/number-guess-game-1.0-SNAPSHOT.jar
+java -jar target/NumberGuessingGameWithGUI-1.0-SNAPSHOT.jar
