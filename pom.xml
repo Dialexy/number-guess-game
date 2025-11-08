@@ -14,20 +14,18 @@
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <javafx.version>25.0.1</javafx.version>
-        <javafx.platform>linux</javafx.platform>
     </properties>
 
+    <dependencies>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
             <version>${javafx.version}</version>
-            <classifier>${javafx.platform}</classifier>
         </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
             <version>${javafx.version}</version>
-            <classifier>${javafx.platform}</classifier>
         </dependency>
 
         <dependency>
@@ -55,7 +53,6 @@
                 <version>0.0.8</version>
                 <configuration>
                     <mainClass>com.numgame.NumberGuessingApp</mainClass>
-                    <platform>${javafx.platform}</platform>
                 </configuration>
             </plugin>
         </plugins>
